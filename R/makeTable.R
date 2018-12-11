@@ -4,7 +4,7 @@
 #'
 #' Make separate tables in long format
 #'
-#' @param data A data.frame containing data to be worked withs
+#' @param data A data.frame containing data to be worked with
 #' @param coreColumns Metadata / identifying data
 #' @param columns Columns (without suffixes) to be included
 #' @param number Number of grouped columns (used to create column suffixes)
