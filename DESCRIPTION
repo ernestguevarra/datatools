@@ -1,0 +1,18 @@
+Package: datatools
+Type: Package
+Title: Utility functions for working on various types of survey data
+Version: 0.1.0.9000
+Authors@R: c(
+    person("Mark", "Myatt", email = "mark@brixtonhealth.com", role = "aut"),
+    person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
+           email = "ernest@guevarra.io", role = c("aut", "cre")))
+Description: Survey data comes in various structures depending on what
+    instruments were used to collect them. Working with such data requires
+    application of specific data processing routines to produce a dataset
+    that can be used for further appropriate data analysis. This package
+    contains various utility functions that can be used for these purposes.
+License: MIT + file LICENSE
+Imports: stringr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
